@@ -1,0 +1,23 @@
+@font-face {
+    font-family: zar;
+    src: url(B\ Zar.ttf) /*format('ttf')*/;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+
+}
+
+.button{
+    padding: 20px 40px;
+    margin-left: 10px;
+    font-family: zar;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    cursor: pointer;
+    
+}

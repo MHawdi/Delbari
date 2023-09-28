@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="font.css">
+    </head>
+
+    <body>
+        <div class="buttons">
+            <button class="button"
+            onclick=" 
+            
+            PickComputerMove();
+
+            let result='';
+            if (computerMove === 'سنگ')
+                {result='مساوی شد ولی از نظر من تو بردی'}
+                else if (computerMove === 'کاغذ')
+                {result='باختی ولی دووشواری نداریم که'}
+                else if (computerMove==='قیچی')
+                {result='بردی باهوش کی بودی تووو'}
+
+            alert(`تو سنگ انتخاب کردی.کامپیوتر ${computerMove} انتخاب کرد.${result} `);
+            "
+            >
+                سنگ
+            </button>
+
+            <button class="button"
+            onclick="
+            PickComputerMove()
+
+            let result='';
+            if (computerMove === 'سنگ')
+                {result='بردی باهوش کی بودی تووو'}
+                else if (computerMove === 'کاغذ')
+                {result='مساوی شد ولی از نظر من تو بردی'}
+                else if (computerMove==='قیچی')
+                {result='باختی ولی دووشواری نداریم که'}
+                
+            alert(`تو کاغذ انتخاب کردی.کامپیوتر ${computerMove} انتخاب کرد.${result} `);"
+            >
+
+
+                کاغذ
+            </button>
+
+            <button class="button"
+            onclick=" 
+
+            PickComputerMove()
+
+            let result='';
+            if (computerMove === 'سنگ')
+                {result='باختی ولی دووشواری نداریم که'}
+                else if (computerMove === 'کاغذ')
+                {result='بردی باهوش کی بودی تووو'}
+                else if (computerMove==='قیچی')
+                {result='مساوی شد ولی از نظر من تو بردی'}
+                
+            alert(`تو قیچی انتخاب کردی.کامپیوتر ${computerMove} انتخاب کرد.${result} `); "
+            >
+                قیچی
+            </button>
+        </div>
+        <script>
+           function PickComputerMove (){
+            const randomNumber= Math.random();
+           
+            
+            if (randomNumber >=0 && randomNumber < 1/3)
+               {computerMove = 'سنگ';}
+               else if (randomNumber>=1/3 && randomNumber<2/3)
+               {computerMove = 'کاغذ'}
+               else if (randomNumber>=2/3 && randomNumber<1)
+               {computerMove='قیچی'}
+
+            
+            return computerMove;
+
+           }
+        </script>
+    </body>
+
+    </html>
