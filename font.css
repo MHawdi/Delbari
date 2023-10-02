@@ -21,3 +21,54 @@
     cursor: pointer;
     
 }
+
+
+.js-showscore{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: zar;
+    font-size: 35px;
+}
+
+
+.reset{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.resett{
+
+    padding: 20px 40px;
+    margin-left: 10px;
+    font-family: zar;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    cursor: pointer;
+    
+}
+
+.end-result{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: zar;
+    font-size: 35px;
+    
+}
+
+.show-move{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: zar;
+    font-size: 15px;
+}
+
+
