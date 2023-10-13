@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/bazi.css">
+    </head>
+
+    <body>
+        <div class="buttons">
+            <button 
+            class="button"
+            onclick=" playGame('سنگ');">
+               <img src="icon/سنگ.png" class="icon"> 
+            </button>
+
+            <button class="button"
+            onclick="
+            playGame('کاغذ'); "  >
+             <img src="icon/کاغذ.png" class="icon">   
+            </button>
+
+            <button
+            style="margin-right: 10px;"
+            class="button"
+            onclick=" 
+            playGame('قیچی');"
+            >
+              <img src="icon/قیچی.png" class="icon">  
+            </button>
+
+        </div>
+
+       <div>
+        <p class="end-result"></p>
+        <p class="show-move"></p>
+        <p class="js-showscore"></p>
+
+    </div> 
+
+    <div class="reset"   >
+
+        <button
+            class="resett"
+
+            onclick="
+            score.wins = 0;
+            score.losses = 0;
+            score.ties = 0;
+            ShowScore();
+            "
+        >
+
+        <img src="icon/210137.png" class="icon">
+
+    </button>
+
+    </div>
+    
+        
+        <script src="script/bazi.js">
+
+        </script>
+    </body>
+
+    </html>
