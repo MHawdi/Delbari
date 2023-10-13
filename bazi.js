@@ -62,10 +62,10 @@
                 <div>
                 انتخاب تو </div>
                 <div>
-                <img src="icon/${playerMove}.png" class="move-icon">
+                <img src="${playerMove}.png" class="move-icon">
                 </div>
                 <div>
-                <img src="icon/${computerMove}.png" class="move-icon">    
+                <img src="${computerMove}.png" class="move-icon">    
                 </div>
 
                 <div>
